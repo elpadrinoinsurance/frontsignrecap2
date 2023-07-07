@@ -1,0 +1,38 @@
+.home-main{
+    padding: 90px 20px 20px 20px;
+    height: fit-content;
+    .lists-area{
+        height: inherit;
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+        grid-auto-rows: max-content;
+        .custom-list-container{
+            overflow: hidden;
+            justify-self: center;
+        }
+    }
+}
+
+.loading{
+    background: rgba(165, 165, 165, 0.507);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-container{
+    overflow: hidden;
+    position: relative;
+    width: fit-content;
+    border-radius: 5px;
+    .loading{
+        background: rgba(0, 0, 0, 0.329);
+        z-index: 1;
+        position:absolute;
+        top: 0;
+        left: 0;
+    }
+}

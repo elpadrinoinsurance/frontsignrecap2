@@ -1,0 +1,33 @@
+body{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(131, 131, 131, 0.253) !important;
+}
+
+.app-main{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root{
+  height: 100%;
+  width: 100%;
+}
+
+.mainHeader{
+
+}
+
+.mainFooter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-main{
+  height: 100%;
+}

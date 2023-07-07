@@ -1,0 +1,19 @@
+.editorHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+}
+
+.sigCanvas{
+    width: 400px;
+    height: 100%;
+    min-height: 12rem;
+}
+
+@media only screen and (max-width:480px) { 
+    .sigCanvas{
+        width: 80vw;
+    }
+}
